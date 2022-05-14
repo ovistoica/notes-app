@@ -4,7 +4,7 @@ import {Link} from '@remix-run/react'
 export function ErrorBoundary({error}: {error: Error}) {
   return <p className={'text-red-700'}>
     Something went wrong. Please retry
-    {' '}{error.message}
+    {'  '}{error.message}
   </p>
 }
 
